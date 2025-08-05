@@ -6,7 +6,8 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  -- import/override with your plugins folder
+  -- catppuccin theme
+  { import = "astrocommunity.colorscheme.catppuccin" },
   -- neovide configs
   { import = "astrocommunity.recipes.neovide" },
 }
